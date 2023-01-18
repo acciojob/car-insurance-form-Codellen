@@ -14,16 +14,16 @@
 	<form method="post" action="#">
 	<div>
 		<label for="name">Name:</label><br>
-		<input type="text" id="name">
+		<input type="text" id="name" required>
 	</div>
 		<div>
 		<label for="email">Email:</label><br>
-		<input type="email" id="email">
+		<input type="email" id="email" required>
 	</div>
 		<div>
 		<label for="gender">Gender:</label><br>
-		<input type="radio" id="male"  name="gender" value="gender">Male
-		<input type="radio" id="female"  name="gender" value="gender">Female
+		<input type="radio" id="male"  name="gender" value="gender" required>Male
+		<input type="radio" id="female"  name="gender" value="gender"required>Female
 	</div>
 		<div>
 			
@@ -36,15 +36,15 @@
 		</div>
 		<div>
 			<label for="carage">Car Age</label>
-				<input type="number" id="carage">
+				<input type="number" id="carage" required>
 		</div>
 		<div>
 			<label for="dop">Date of Purchase</label>
-			<input type="date" id="dop">
+			<input type="date" id="dop" required>
 		</div>
 		<div>
 			<label for="password">Password</label>
-			<input type="password" id="password">
+			<input type="password" id="password" required>
 		</div>
 		<input type="submit" value="Submit">
 		</form>
